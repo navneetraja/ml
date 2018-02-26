@@ -1,0 +1,137 @@
+﻿/*
+*	Name: Mukund Ajmera
+*	Team: ML (backorder)
+*	Work: Understanding Algorithms
+*	Dt:-12/02/2018 - 13/02/2018
+*	Alogs:-
+*	1: Naive bayes
+*	2: K-Nearest Neighbour
+*	3: Lasso Regression
+*	4: ANN
+*	5: EM(expectation Maximization)
+*	
+*/	
+
+naive bayes based on  Bayes Probability Theorem (conditional probability) for subjective analysis 
+documents:-
+one doc left
+
+applications :-
+Spam Filtering is a popular application of Naïve Bayes algorithm. Spam filter here, is a classifier that assigns a label “Spam” or “Not Spam” to all the emails.
+
+Sentiment Analysis- It is used at Facebook to analyse status updates expressing positive or negative emotions.
+
+Document Categorization- Google uses document classification to index documents and find relevancy scores i.e. the PageRank. 
+
+used for :-  models particularly for disease prediction and document classification. 
+
+used when:- 
+1:moderate or large training data set.
+2:several attributes
+3:classification parameter, attributes which describe the instances should be conditionally independent (independent is most impoartant part).
+
+
+adv:-
+1: works well when input variables are categorical
+2: converges faster, requiring relatively little training data (not like  logistic regression)
+3: good for multi classes also
+
+
+----------------------------------------------------------------------------------------------------------
+K-Nearest Neighbors 
+links left:-
+https://machinelearningmastery.com/k-nearest-neighbors-for-machine-learning/
+
+
+used for :- KNN can be used for both classification and regression predictive problems. However, it is more widely used in classification problems in the industry. 
+
+Advc :-
+1:Ease to interpret output
+2:Calculation time
+3:Predictive Power
+
+
+to calculate distance :- 
+Hamming Distance: Calculate the distance between binary vectors 
+Manhattan Distance(City Block Distance): Calculate the distance between real vectors using the sum of their absolute difference 
+Minkowski Distance: Generalization of Euclidean and Manhattan distance 
+Euclidean distance: distance between 2 point on graph.
+
+example:- 
+
+--------------------------------------------------------------------------------------------------------
+
+Lasso Regression (extension built on regularized linear regression)
+Abbr -> Least Absolute Shrinkage and Selection Operator.
+uses:- Shrinkage is where data values are shrunk towards a central point, like the mean. 
+ performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the statistical model it produces.
+
+advc
+1:Lasso method overcomes the disadvantage of Ridge regression how (by not only punishing high values of the coefficients β but actually setting them to zero if they are not relevant)
+
+2: uses L1 norm) of weights found by the regression.  not l2 which is used by rigid regression
+
+dis advc 
+1:Lasso doesn't give closed-form analytic solutions
+
+
+example :- 
+you want to predict a house price based on different properties.
+    features: house size, the number of rooms, floor, whether elevator exists, etc.
+    label: house price.
+
+--------------------------------------------------------------------------------------------------------
+
+Artificial Neural Network
+
+Artificial Neural network is typically organized in layers. Layers are being made up of many interconnected ‘nodes’ which contain an ‘activation function’.
+
+using of layers as input layer -> (maybe) hidden layer -> output layer 
+all layers of multiple nodes
+
+In a simple model, the first layer is the input layer, followed by one hidden layer, and lastly by an output layer. Each layer can contain one or more neurons.
+
+advc:- 
+ANNs are considered as simple mathematical models to enhance existing  data analysis technologies. Although it is not comparable with the power of the human brain, still it is the basic building block of the Artificial intelligence.
+
+ANNs can generalize — After learning from the initial inputs and their relationships, it can infer unseen relationships on unseen data as well, thus making the model generalize and predict on unseen data.
+
+example :- 
+optical character recognition
+
+pattern recognizing. The ANN comes up with guesses while recognizing. Then the teacher provides the ANN with the answers. The network then compares it guesses with the teacher’s “correct” answers and makes adjustments according to errors.
+
+dis advc :-
+"black box" nature
+greater computational burden
+proneness to overfitting
+
+---------------------------------------------------------------------------------------------------------------
+
+
+EM(Expectation-Maximization)
+
+find maximum-likelihood estimates for model parameters when your data is incomplete, has missing data points, or has unobserved (hidden) latent variables.
+
+uses when data have missing values 
+
+works:- It works by choosing random values for the missing data points, and using those guesses to estimate a second set of data. 
+
+advc :- The more complex EM algorithm can find model parameters even if you have missing data.
+
+dis advc:-
+The EM algorithm can very very slow, even on the fastest computer. 
+
+It works best when you only have a small percentage of missing data and the dimensionality of the data isn’t too big. 
+
+higher dimension is greater the E-step it
+
+
+example:- 
+
+widely used in medical image reconstruction ex  single photon emission computed tomography.
+
+used in various motion estimation frameworks
+
+
+

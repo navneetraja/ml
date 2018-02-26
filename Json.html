@@ -1,0 +1,6 @@
+library("rjson")
+result <- fromJSON(file = "C:/Projects/input.json")
+print((result))
+json_data_frame <- as.data.frame(result)# conversion json data into data frame
+print(json_data_frame)
+
