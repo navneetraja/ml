@@ -1,0 +1,15 @@
+age,income,student,credit,buys_computer
+25,h,no,fair,no
+29,h,no,excellent,no
+32,h,no,fair,yes
+45,m,no,fair,yes
+50,l,yes,fair,yes
+60,l,yes,excellent,no
+35,l,yes,excellent,yes
+22,m,no,fair,no
+24,l,yes,fair,yes
+65,m,yes,fair,yes
+20,m,yes,excellent,yes
+36,m,no,excellent,yes
+38,h,yes,fair,yes
+70,m,no,excellent,no
