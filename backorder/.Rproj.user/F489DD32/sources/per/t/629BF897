@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519715226865.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "274145158",
+    "id" : "629BF897",
+    "lastKnownWriteTime" : 1519724622,
+    "last_content_update" : 1519734086589,
+    "path" : "~/jsclose/backorder/all in one.R",
+    "project_path" : "all in one.R",
+    "properties" : {
+        "cursorPosition" : "76,0",
+        "scrollLine" : "52",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

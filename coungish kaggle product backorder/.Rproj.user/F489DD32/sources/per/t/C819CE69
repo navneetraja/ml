@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519734343206.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1877419862",
+    "id" : "C819CE69",
+    "lastKnownWriteTime" : 1519730934,
+    "last_content_update" : 1519735679070,
+    "path" : "~/coungish kaggle product backorder/all in one.R",
+    "project_path" : "all in one.R",
+    "properties" : {
+        "cursorPosition" : "125,2",
+        "scrollLine" : "103",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

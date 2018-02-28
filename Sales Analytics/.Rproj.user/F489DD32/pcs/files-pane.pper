@@ -1,0 +1,9 @@
+{
+    "path" : "~/Sales Analytics",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
